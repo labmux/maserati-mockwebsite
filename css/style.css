@@ -1,0 +1,336 @@
+div.max-width{
+    margin: auto;
+}
+
+header#main-menu {
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 2280px;
+    margin: auto;
+    padding: 0;
+}
+
+header#main-menu li {
+    position: relative;
+    top: 30px;
+    display: inline;
+    margin: 10px;
+    font-size: 14px;
+    font-family: "Univers47",sans-serif;
+    text-transform: uppercase;
+}
+
+header#main-menu a {
+    color: #7A7A7F;
+}
+
+header#main-menu a:hover {
+    /*to get rid of the underline*/
+    text-decoration: none;
+    color: darkgray;
+}
+
+img#main-menu-logo {
+    width:120px;
+    height: 60px;
+    margin-right: 60px;
+    float: left;
+}
+
+table#perkTable {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-spacing: 15px;
+    border-collapse: separate;
+    opacity: 0.8;
+}
+
+table#perkTable td {
+    padding: 40px;
+    border: 1px solid #7A7A7F;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+
+    text-align: center;
+    font-family: 'HyundaiSansHead-Regular';
+    font-weight: 400;
+    font-size: 12pt;
+    opacity: 0.8;
+    color: #413F40;
+}
+
+table#perkTable td:hover {
+    opacity: 0.5;
+    transform: translateY(-2px) translateX(1px);
+}
+
+#home-inside {
+    position: relative;
+}
+
+#home-inside img{
+    width: 100%;
+    height:700px;
+}
+
+#home-inside #inside-view{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    color: #D5D5D5;
+    font-family: 'Oswald', sans-serif;
+}
+
+#home-inside #inside-view h1 {
+    font-size: 100px;
+}
+
+#products {
+    font-family: "Univers47",sans-serif;
+    width: 1000px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#products div.image{
+    text-align: center;
+    float: left;
+}
+
+#products div.image img {
+    width:600px;
+    height: 450px;
+}
+
+#products div.details {
+    margin-top: 80px;
+    float: right;
+}
+
+#about-us img {
+    width: 100%;
+}
+
+#about-us #image-title {
+    position: absolute;
+    top: 90px;
+    color: #707071;
+    margin-left: 80px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#about-us #image-title h1 {
+    font-size: 60pt;
+}
+
+#about-us img#tire-logo {
+    width: 32px;
+    height: 32px;
+    display: block;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-us p, #about-us h2{
+    font-family:'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+table#gallery > tr > td{
+    margin-left: 50px;
+}
+table#gallery img.fullsize {
+    width: 1200px;
+    height: 505px;
+}
+
+table#gallery img.big-collage-first{
+    width: 800px;
+    height:505px;
+}
+
+table#gallery img.big-collage-second{
+    display: block;
+    margin: 1px;
+}
+
+table#gallery img.big-collage-third{
+    display: block;
+    margin:1px;
+}
+
+table#gallery td, table#gallery tr{
+    display: inline-block;
+    margin: 1px;
+}
+
+table#gallery img{
+    width: 397px;
+    height:250px;
+}
+
+table#gallery img:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+form#contact{
+    margin-top: 90px;
+    margin-left: 100px;
+    font-family: 'HyundaiSansHead-Regular';
+}
+
+#contact .title{
+    margin-bottom: 20px;
+}
+
+form#contact input, form#contact textarea, form#contact button{
+    display: block;
+    width: 600px;
+    height:50px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+form#contact button{
+    background-color: lightgray;
+    width: 200px;
+    height: 50px;
+    display: block;
+
+    /*
+    transitioning
+    */
+    opacity: 0.6;
+    transition: 0.3s;
+
+    /*
+    position
+    */
+
+}
+
+form#contact button:hover{
+    opacity: 1;
+ }
+
+form#contact textarea#comment {
+    width: 600px;
+    height: 170px;
+    display: block;
+
+    min-height:100px;
+    max-height: 200px;
+
+    min-width: 550px;
+    max-width: 800px;
+}
+
+/*
+ Google map
+*/
+map {
+    font-family: 'HyundaiSansHead-Regular';
+    opacity: 0.8;
+    position: relative;
+    bottom: 530px;
+    right: 320px;
+
+    display: inline-block;
+    float: right;
+}
+
+map iframe {
+    height: 340px;
+    width: 300px;
+
+}
+
+footer {
+    border-top: 1px solid #7A7A7F;
+    margin-top: 100px;
+    float: bottom;
+    text-align: center;
+    color: #7A7A7F;
+}
+
+footer .social-media {
+    margin: 20px;
+    display: inline-block;
+    align-content: center;
+}
+
+.social-media a#insta {
+    text-align: center;
+    margin: 5px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url("../images/social_media/insta-empty.png") no-repeat;
+
+}
+
+.social-media a#insta:hover {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    background: url("../images/social_media/insta-full.png") no-repeat;
+
+}
+
+.social-media a#fb {
+    text-align: center;
+    margin: 5px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url("../images/social_media/fb-empty.png") no-repeat;
+}
+
+.social-media a#fb:hover {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    background: url("../images/social_media/fb-full.png") no-repeat;
+}
+
+.social-media a#twitter {
+    text-align: center;
+    margin: 5px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url("../images/social_media/twitter-empty.png") no-repeat;
+}
+
+.social-media a#twitter:hover {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    background: url("../images/social_media/twitter-full.png") no-repeat;
+}
+
+.social-media a#youtube {
+    text-align: center;
+    margin: 5px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url("../images/social_media/youtube-empty.png") no-repeat;
+}
+
+.social-media a#youtube:hover {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    background: url("../images/social_media/youtube-full.png") no-repeat;
+}
